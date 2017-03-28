@@ -155,7 +155,7 @@ aside {
   }
   header .header-content .header-content-inner h3 {
     /* smaller text under big intro */
-    text-shadow:  5px 10px 6px black;
+    text-shadow:  3px 1px 0px black;
     color: #00ff7f;
 }
   h2,h3{
@@ -172,7 +172,7 @@ header {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url('../img/header.jpg');
+  background-image: url('../img/deskbkgd.jpg');
   text-align: center;
   color: white;
 }
@@ -232,8 +232,8 @@ header .header-content .header-content-inner p {
   }
   header .header-content .header-content-inner h3 {
     /* smaller text under big intro */
-    text-shadow:  5px 10px 6px black;
-    color: #00ff7f;
+    text-shadow:  3px 1px 0px black;
+    /* color: #00ff7f; */
 }
 }
 .section-heading {
