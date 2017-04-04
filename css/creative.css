@@ -543,14 +543,12 @@ body {
 
 .contact{
   padding: 40px;
-}
-.contactsContainer{
-
+  padding-bottom: -30px;
 }
 .contact:hover{
     /* box-shadow: 10px 10px 17px black; */
 } 
-.skillsLogo{
+/* .skillsLogo{
     max-height: 80px;
     max-width: 130px;
 }
@@ -562,7 +560,12 @@ body {
 }
 .aws{
   margin-top: -98px;
-}
+} */
 .btn, .navbar-default, h2, h5, h6{
   /* font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; */
+}
+
+.skillsHeadings{
+  margin: auto;
+  display: block;
 }
