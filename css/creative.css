@@ -10,6 +10,7 @@ body {
 }
 body {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+
 }
 hr {
   border-color: #3b220e;
@@ -35,8 +36,10 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  /* font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; */
+  font-family: 'Amatic SC', cursive;
   color: #3b220e;
+  font-weight: bold;
 }
 p {
   font-size: 16px;
@@ -72,14 +75,17 @@ aside {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
+  font-size: 30px;
 }
 .navbar-default .navbar-header .navbar-brand {
+  /* name on top left */
   /* color: #00ff7f; */
   color: black;
   /* font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; */
   font-family: 'Amatic SC', cursive;
   font-weight: 700;
   text-transform: uppercase;
+  font-size: 30px;
 }
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
@@ -89,7 +95,7 @@ aside {
 }
 .navbar-default .navbar-header .navbar-toggle {
   font-weight: 700;
-  font-size: 12px;
+  font-size: 30px;
   /* color: #222222; */
   font-family: 'Amatic SC', cursive;
   color: black;
@@ -97,9 +103,10 @@ aside {
 }
 .navbar-default .nav > li > a,
 .navbar-default .nav > li > a:focus {
+  /* on hover of links in navbar */
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 13px;
+  font-size: 23px;
   /* color: #222222; */
   color: black;
   font-family: 'Amatic SC', cursive;
@@ -127,6 +134,7 @@ aside {
     background-color: transparent;
     border-color: rgba(255, 255, 255, 0.3);
     font-family: 'Amatic SC', cursive;
+    font-size: 23px;
   }
   .navbar-default .navbar-header .navbar-brand {
     /* color of navbar-brand at min-width of 768px */
@@ -138,7 +146,7 @@ aside {
   .navbar-default .navbar-header .navbar-brand:focus {
     color: black;
     font-family: 'Amatic SC', cursive;
-    font-size: 30px;
+    font-size: 23px;
   }
   .navbar-default .nav > li > a,
   .navbar-default .nav > li > a:focus {
@@ -157,6 +165,7 @@ aside {
     background-color: #3b220e;
     border-color: #3b220e;
     font-family: 'Amatic SC', cursive;
+    font-size: 23px;
   }
   .navbar-default.affix .navbar-header .navbar-brand {
     /* color: #00ff7f; */
@@ -175,7 +184,7 @@ aside {
     /* color of navbar links when scrolled past first section */
     color: white;
     font-family: 'Amatic SC', cursive;
-    font-size: 30px;
+    font-size: 23px;
   }
   .navbar-default.affix .nav > li > a:hover,
   .navbar-default.affix .nav > li > a:focus:hover {
@@ -191,7 +200,7 @@ aside {
     font-family: 'Amatic SC', cursive;
 }
   h2,h3{
-    font-size: 30px;
+    font-size: 40px;
     /* font-weight: bold; */
     font-family: 'Amatic SC', cursive;
   }
@@ -285,9 +294,9 @@ header .header-content .header-content-inner p {
 }
 }
 .section-heading {
-  margin-top: 0;
+  margin-top: -25px;
 }
-.service-box {
+/* .service-box {
   max-width: 400px;
   margin: 50px auto 0;
 }
@@ -298,7 +307,7 @@ header .header-content .header-content-inner p {
 }
 .service-box p {
   margin-bottom: 0;
-}
+} */
 .panel-heading {
     background-color: #9d8b77;
     color: #00ff7f;
@@ -316,14 +325,16 @@ header .header-content .header-content-inner p {
     position: relative;
     display: block;
     max-width: 650px;
-    max-height: 650px;
     margin: 0 auto;
     color: white;
+    border-radius: 15px;
 }
-/* .portfolio-box img {
-  width: 100%;
+.portfolio-box img {
+  /* width: 100%; */
   display: block;
-} */
+  border-radius: 15px;
+  padding-bottom: 10px;
+}
 
 .portfolio-box .portfolio-box-caption {
   /* color of popup text and popup box when you hover over portfolio boxes */
@@ -339,7 +350,7 @@ header .header-content .header-content-inner p {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
-  max-height: 583px;
+  /* max-height: 583px; */
   border-radius: 15px;
 }
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
@@ -372,12 +383,13 @@ header .header-content .header-content-inner p {
 }
 .portfolio-box:focus {
   outline: none;
+  border-radius: 15px;
 }
 @media (min-width: 768px) {
   .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
     font-size: 16px;
     color: white;
-    max-height: 583px;
+    /* max-height: 583px; */
   }
   .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
     font-size: 22px;
@@ -392,10 +404,9 @@ header .header-content .header-content-inner p {
   color: #F05F40;
 }
 .no-gutter > [class*='col-'] {
-  padding-right: 0;
-  padding-left: 0;
-  max-height: 583px;
-  /* max-width: 50px; */
+  /* padding-right and padding-left give breathing room to projects on display*/
+  /*padding-right: 0;
+  padding-left: 0; */
 }
 .btn-default {
   /* color of medium and github icons in buttons */
@@ -447,7 +458,7 @@ fieldset[disabled] .btn-default.active {
   background-color: #222222;
 }
 .btn-primary {
-  /* button at top of portfolio */
+  /* scrolling button at top of portfolio */
   color: black;
   background-color: white;
   border-color: white;
@@ -455,6 +466,7 @@ fieldset[disabled] .btn-default.active {
   -moz-transition: all 0.35s;
   transition: all 0.35s;
   box-shadow: 10px 10px 17px black;
+  margin-top: 40px;
 }
 .btn-primary:hover,
 .btn-primary:focus,
@@ -551,6 +563,6 @@ body {
 .aws{
   margin-top: -98px;
 }
-.btn, .navbar-default, .navbar-default .navbar-header .navbar-brand, h2, h5, h6{
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+.btn, .navbar-default, h2, h5, h6{
+  /* font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; */
 }
