@@ -548,19 +548,6 @@ body {
 .contact:hover{
     /* box-shadow: 10px 10px 17px black; */
 } 
-/* .skillsLogo{
-    max-height: 80px;
-    max-width: 130px;
-}
-.skillsLogoAjax{
-    margin-top: 40px;
-}
-.jasmine{
-  margin-top: -98px;
-}
-.aws{
-  margin-top: -98px;
-} */
 .btn, .navbar-default, h2, h5, h6{
   /* font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; */
 }
@@ -568,4 +555,12 @@ body {
 .skillsHeadings{
   margin: auto;
   display: block;
+}
+.skills{
+  font-size: 15px;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  text-align: center;
+}
+.moreToCome{
+  font-size: 25px;
 }
