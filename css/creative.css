@@ -563,48 +563,60 @@ body {
   font-size: 25px;
 }
 .contact{
-  
+  padding-left: 8px;
 }
 .linkedIn{
   border-radius: 50px;
   background-color: #9d8b77; 
   width:100px; 
-  height: 100px; 
+  height: 50px; 
   border: 5px solid #0077b5;
+  cursor: pointer;
+  margin:0px 20px 0px 20px;
 }
 .github{
   border-radius: 50px;
   background-color: #9d8b77; 
   width:100px; 
-  height: 100px; 
+  height: 50px; 
   border: 5px solid #24292e;
+  cursor: pointer;
+  margin:0px 20px 0px 20px;
 }
 .twitter{
   border-radius: 50px;
   background-color: #9d8b77; 
   width:100px; 
-  height: 100px; 
+  height: 50px; 
   border: 5px solid #1DA1F2;
+  cursor: pointer;
+  margin:0px 20px 0px 20px;
 }
 .medium{
   border-radius: 50px;
   background-color: #9d8b77; 
   width:100px; 
-  height: 100px; 
+  height: 50px; 
   border: 5px solid #59b48d;
+  cursor: pointer;
+  margin:0px 20px 0px 20px;
 }
 .resume{
   border-radius: 50px;
   background-color: #9d8b77; 
   width:100px; 
-  height: 100px; 
+  height: 50px; 
   border: 5px solid #FF0000;
+  cursor: pointer;
+  margin:0px 20px 0px 20px;
 }
 .email{
   border-radius: 50px;
   background-color: #9d8b77; 
   width:100px; 
-  height: 100px; 
+  height: 50px; 
   border: 5px solid #FBBC05;
+  cursor: pointer;
+  margin:0px 20px 0px 20px;
 }
 
