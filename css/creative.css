@@ -9,7 +9,7 @@ body {
   width: 100%;
 }
 body {
-  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
 
 }
 hr {
@@ -255,6 +255,7 @@ header .header-content .header-content-inner p {
 .skills-heading{
   margin-top: 20px;
   font-weight: 900;
+  font-family: 'Helvetica';
 }
 @media (min-width: 768px) {
   header {
@@ -299,6 +300,7 @@ header .header-content .header-content-inner p {
 }
 .section-heading {
   margin-top: -25px;
+  font-size: 50px;
 }
 /* .service-box {
   max-width: 400px;
@@ -552,11 +554,12 @@ body {
 
 .skillsHeadings{
   margin: auto;
-  display: block;
+  display: block; 
+
 }
 .skills{
   font-size: 20px;
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
   text-align: center;
 }
 .moreToCome{
@@ -598,15 +601,6 @@ body {
   width:100px; 
   height: 50px; 
   border: 5px solid #59b48d;
-  cursor: pointer;
-  margin:0px 20px 0px 20px;
-}
-.resume{
-  border-radius: 50px;
-  background-color: #9d8b77; 
-  width:100px; 
-  height: 50px; 
-  border: 5px solid #FF0000;
   cursor: pointer;
   margin:0px 20px 0px 20px;
 }
