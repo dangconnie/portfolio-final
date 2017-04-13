@@ -568,50 +568,50 @@ body {
 .contact{
   padding-left: 8px;
 }
-/* .linkedIn{
+.linkedIn{
   border-radius: 50px;
-  background-color: #9d8b77; 
-  width:100px; 
+  background-color: #0077b5; 
+  width:200px; 
   height: 50px; 
-  border: 5px solid #0077b5;
+  border: 5px solid black;
   cursor: pointer;
-  margin:0px 20px 0px 20px;
-}
-.github{
-  border-radius: 50px;
-  background-color: #9d8b77; 
-  width:100px; 
-  height: 50px; 
-  border: 5px solid #24292e;
-  cursor: pointer;
-  margin:0px 20px 0px 20px;
-}
-.twitter{
-  border-radius: 50px;
-  background-color: #9d8b77; 
-  width:100px; 
-  height: 50px; 
-  border: 5px solid #1DA1F2;
-  cursor: pointer;
-  margin:0px 20px 0px 20px;
-}
-.medium{
-  border-radius: 50px;
-  background-color: #9d8b77; 
-  width:100px; 
-  height: 50px; 
-  border: 5px solid #59b48d;
-  cursor: pointer;
-  margin:0px 20px 0px 20px;
+  margin-right: 25px;
 }
 .email{
   border-radius: 50px;
-  background-color: #9d8b77; 
-  width:100px; 
+  background-color: #FBBC05; 
+  width:200px; 
   height: 50px; 
-  border: 5px solid #FBBC05;
+  border: 5px solid black;
   cursor: pointer;
-  margin:0px 20px 0px 20px;
+  margin-right: 25px;
 }
-
- */
+.twitter{
+  border-radius: 50px;
+  background-color: #1DA1F2; 
+  width:200px; 
+  height: 50px; 
+  border: 5px solid black;
+  cursor: pointer;
+  margin-right: 25px;
+}
+.medium{
+  border-radius: 50px;
+  background-color: #59b48d; 
+  width:200px; 
+  height: 50px; 
+  border: 5px solid black;
+  cursor: pointer;
+}
+.fa-arrow-right{
+  float: right;
+  margin-top: 6px;
+}
+/* .fa-arrow-right:hover{
+  float: right;
+  margin-top: 6px;
+  display: inline;
+} */
+.contact-icons{
+  margin: auto;
+}
