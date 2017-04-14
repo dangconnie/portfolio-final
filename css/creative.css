@@ -566,7 +566,7 @@ body {
   font-size: 25px;
 }
 .contact{
-  padding-left: 8px;
+  /* padding-left: 8px; */
 }
 .linkedIn{
   border-radius: 50px;
@@ -613,5 +613,6 @@ body {
   display: inline;
 } */
 .contact-icons{
-  margin: auto;
+  margin-left: 142px;
+  display: inline;
 }
